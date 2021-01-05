@@ -9,9 +9,7 @@
     public abstract class SceneSingleton<T> : Singleton<T>
         where T : MonoBehaviour
     {
-        /// <summary>
-        /// To use the Awake method in your singleton override this and run the base before your own code.
-        /// </summary>
+        /// <inheritdoc/>
         protected override void Awake()
         {
             if (Instance != this)
