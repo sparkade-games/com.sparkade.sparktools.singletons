@@ -1,6 +1,6 @@
 {
   "name": "com.sparkade.sparktools.singletons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "displayName": "SparkTools: Singletons",
   "description": "A quick and easy singleton solution.",
   "unity": "2020.2",
